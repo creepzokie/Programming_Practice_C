@@ -1,0 +1,18 @@
+
+Computing size of input file.
+Size of input file = 620
+
+Read text file.
+Average of grades of slee = 60.00
+Average of grades of hPark = 72.50
+Average of grades of YKim = 34.50
+[ERROR] 4-th grade at line 9 of input file is invalid.
+Average of grades of dKim = 31.75
+[ERROR] One of name, age, sex at line 12 is invalid.
+Average of grades of kog = 18.75
+[ERROR] Gender at line 15 of input file is 'K'.
+Average of grades of lee = 65.50
+[ERROR] Input file contains 6 valid lines (9 expected).
+Number of males = 3
+Number of females = 3
+Average of ages = 22.3

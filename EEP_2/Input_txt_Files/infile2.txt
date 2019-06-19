@@ -1,0 +1,16 @@
+// lines that begin with 2 consecutive slashes are comments.
+9   4      // number of students, and number of classes
+// All the following lines are supposed to be "name age sex multiple-grades" of a person
+// If any line does not match the line format, give error message and skip.
+slee 29 M 87 59 69 25
+hPark 18 F 34 97 81 78
+YKim 21 F 29 33 8 68
+// note that the following line contains an error
+dKim 25 M 51 16 28
+dKim 25 M 51 16 28 32
+// the following line also contains an error
+kog F 17 8 5 45
+kog 20 F 17 8 5 45
+// the following line also contains an error
+lee 21 K 78 3 89 92
+lee 21 M 78 3 89 92

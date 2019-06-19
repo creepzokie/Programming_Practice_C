@@ -1,0 +1,14 @@
+
+Computing size of input file.
+Size of input file = 410
+
+Read text file.
+Average of grades of slee = 71.67
+Average of grades of hPark = 70.67
+Average of grades of YKim = 23.33
+Average of grades of dKim = 31.67
+Average of grades of kog = 10.00
+Average of grades of lee = 56.67
+Number of males = 3
+Number of females = 3
+Average of ages = 22.3
