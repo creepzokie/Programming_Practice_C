@@ -1,0 +1,96 @@
+
+Perform headInsert at phase 0
+  headInsert expected  : 9 18 23 43 51 65 76 89 99
+  headInsert performed : 9 18 23 43 51 65 76 89 99
+             reversed list of the above : 99 89 76 65 51 43 23 18 9
+
+Perform headDelete at phase 0
+  deleting a head node : 9 18 23 43 51 65 76 89 99
+             reversed list of the above : 99 89 76 65 51 43 23 18 9
+  deleting a head node : 18 23 43 51 65 76 89 99
+             reversed list of the above : 99 89 76 65 51 43 23 18
+  deleting a head node : 23 43 51 65 76 89 99
+             reversed list of the above : 99 89 76 65 51 43 23
+  deleting a head node : 43 51 65 76 89 99
+             reversed list of the above : 99 89 76 65 51 43
+  deleting a head node : 51 65 76 89 99
+             reversed list of the above : 99 89 76 65 51
+  deleting a head node : 65 76 89 99
+             reversed list of the above : 99 89 76 65
+  deleting a head node : 76 89 99
+             reversed list of the above : 99 89 76
+  deleting a head node : 89 99
+             reversed list of the above : 99 89
+  deleting a head node : 99
+             reversed list of the above : 99
+  headDelete performed okay.
+
+Perform tailInsert at phase 0
+  tailInsert expected  : 99 89 76 65 51 43 23 18 9
+  tailInsert performed : 99 89 76 65 51 43 23 18 9
+             reversed list of the above : 9 18 23 43 51 65 76 89 99
+
+Perform tailDelete at phase 0
+  deleting a tail node : 99 89 76 65 51 43 23 18 9
+             reversed list of the above : 9 18 23 43 51 65 76 89 99
+  deleting a tail node : 99 89 76 65 51 43 23 18
+             reversed list of the above : 18 23 43 51 65 76 89 99
+  deleting a tail node : 99 89 76 65 51 43 23
+             reversed list of the above : 23 43 51 65 76 89 99
+  deleting a tail node : 99 89 76 65 51 43
+             reversed list of the above : 43 51 65 76 89 99
+  deleting a tail node : 99 89 76 65 51
+             reversed list of the above : 51 65 76 89 99
+  deleting a tail node : 99 89 76 65
+             reversed list of the above : 65 76 89 99
+  deleting a tail node : 99 89 76
+             reversed list of the above : 76 89 99
+  deleting a tail node : 99 89
+             reversed list of the above : 89 99
+  deleting a tail node : 99
+             reversed list of the above : 99
+  tailDelete performed okay.
+
+Deleting current list at phase 0
+deleteList performed okay
+
+Perform headInsert at phase 1
+  headInsert expected  : 128 256 328 415 512
+  headInsert performed : 128 256 328 415 512
+             reversed list of the above : 512 415 328 256 128
+
+Perform headDelete at phase 1
+  deleting a head node : 128 256 328 415 512
+             reversed list of the above : 512 415 328 256 128
+  deleting a head node : 256 328 415 512
+             reversed list of the above : 512 415 328 256
+  deleting a head node : 328 415 512
+             reversed list of the above : 512 415 328
+  deleting a head node : 415 512
+             reversed list of the above : 512 415
+  deleting a head node : 512
+             reversed list of the above : 512
+  headDelete performed okay.
+
+Perform tailInsert at phase 1
+  tailInsert expected  : 512 415 328 256 128
+  tailInsert performed : 512 415 328 256 128
+             reversed list of the above : 128 256 328 415 512
+
+Perform tailDelete at phase 1
+  deleting a tail node : 512 415 328 256 128
+             reversed list of the above : 128 256 328 415 512
+  deleting a tail node : 512 415 328 256
+             reversed list of the above : 256 328 415 512
+  deleting a tail node : 512 415 328
+             reversed list of the above : 328 415 512
+  deleting a tail node : 512 415
+             reversed list of the above : 415 512
+  deleting a tail node : 512
+             reversed list of the above : 512
+  tailDelete performed okay.
+
+Deleting current list at phase 1
+deleteList performed okay
++++++ Checking memory... +++++
++++++ Memory is okay. +++++

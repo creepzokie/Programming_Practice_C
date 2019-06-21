@@ -1,0 +1,13 @@
+- Reading binary data file "in.bin", and write to text file "q1out.txt"
+- Counting component types in the circuit
+number of batteries   = 2
+number of resistors   = 4
+number of captacitors = 2
+number of inductors   = 1
+- Listing component names of each type
+BATTERIES  : U1 U3
+RESISTORS  : U0 U2 U5 U7
+INDUCTORS  : U4
+CAPACITORS : U6 U8
++++++ Checking memory... +++++
++++++ Memory is okay. +++++

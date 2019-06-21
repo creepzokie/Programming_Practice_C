@@ -1,0 +1,18 @@
+
+Read text file and write to binary file.
+Reading text file 'infile.txt'.
+[grade_read_txt] ==== OK ====
+Writing to binary file 'binary.dat'.
+[grade_bin_file] ==== Size is OK (216) ====
+[grade_bin_file] ==== OK  LITTLE-ENDIAN ====
++++++ Checking memory... +++++
++++++ Memory is okay. +++++
+
+Read binary file and write to text file.
+Reading binary file 'binary.dat'.
+Size = 216
+[grade_read_bin] ==== OK ====
+Writing to text file 'outfile.txt'.
+[grade_txt_file] ==== OK ====
++++++ Checking memory... +++++
++++++ Memory is okay. +++++

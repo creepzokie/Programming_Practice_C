@@ -1,0 +1,13 @@
+
+Read text file and write to binary file.
+Reading text file 'infile.txt'.
+Writing to binary file 'binary.dat'.
++++++ Checking memory... +++++
++++++ Memory is okay. +++++
+
+Read binary file and write to text file.
+Reading binary file 'binary.dat'.
+Size = 216
+Writing to text file 'outfile.txt'.
++++++ Checking memory... +++++
++++++ Memory is okay. +++++

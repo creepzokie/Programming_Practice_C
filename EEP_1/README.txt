@@ -3,7 +3,7 @@
 라이센스 정보는 다음을 참조하십시오.
 http://class.icc.skku.ac.kr/~min/program/license.html
 
-프로그래밍 실험실 배열 (및 포인터)
+Programming Lab : Arrays (and Pointers) (배열과 포인터)
 
 성균관대 정보 통신 학부 "프로그래밍 랩"에 등록한 학생들에게 제공되는 주요 프로그램입니다.
 

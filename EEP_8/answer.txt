@@ -1,0 +1,141 @@
+
+Perform addElement at phase 0
+  addElement (Set 1) expected  : 11 18 23 43 51 65 76 89 99
+  addElement (Set 1) performed : 11 18 23 43 51 65 76 89 99
+
+Perform deleteElement at phase 0
+  deleting an element '51' : 11 18 23 43 51 65 76 89 99
+  deleting an element '18' : 11 18 23 43 65 76 89 99
+  deleting an element '65' : 11 23 43 65 76 89 99
+  deleting an element '43' : 11 23 43 76 89 99
+  deleting an element '11' : 11 23 76 89 99
+  deleting an element '76' : 23 76 89 99
+  deleting an element '23' : 23 89 99
+  deleting an element '99' : 89 99
+  deleting an element '89' : 89
+  deleteElement performed okay.
+
+Perform addElement again at phase 0
+  addElement expected  : 11 18 23 43 51 65 76 89 99
+  addElement performed : 11 18 23 43 51 65 76 89 99
+
+Perform deleteElement at phase 0
+  deleting a smallest element : 11 18 23 43 51 65 76 89 99
+  deleting a smallest element : 18 23 43 51 65 76 89 99
+  deleting a smallest element : 23 43 51 65 76 89 99
+  deleting a smallest element : 43 51 65 76 89 99
+  deleting a smallest element : 51 65 76 89 99
+  deleting a smallest element : 65 76 89 99
+  deleting a smallest element : 76 89 99
+  deleting a smallest element : 89 99
+  deleting a smallest element : 99
+  deleteElement performed okay.
+
+Creating Set 1 for set union/intersection
+  Set 1 expected  = { 11 18 23 43 51 65 76 89 99 }
+  Set 1 performed = { 11 18 23 43 51 65 76 89 99 }
+
+Creating Set 2 for set union/intersection
+  Set 2 expected  = { 17 23 43 55 65 }
+  Set 2 performed = { 17 23 43 55 65 }
+
+Union of Set1 and an Empty set at phase 0
+  Set1 U Empty-set expected  = { 11 18 23 43 51 65 76 89 99 }
+  Set1 U Empty-set performed = { 11 18 23 43 51 65 76 89 99 }
+
+Union of an Empty set and Set2 at phase 0
+  Empty-set U Set2 expected  = { 17 23 43 55 65 }
+  Empty-set U Set2 performed = { 17 23 43 55 65 }
+
+Union of two sets, (Set1 and Set2) at phase 0
+  Set1 U Set2 expected  = { 11 17 18 23 43 51 55 65 76 89 99 }
+  Set1 U Set2 performed = { 11 17 18 23 43 51 55 65 76 89 99 }
+
+Intersection of Set1 and an Empty set at phase 0
+  Set1 ^ Empty-set expected  = { }
+  Set1 ^ Empty-set performed = { }
+
+Intersection of an Empty set and Set2 at phase 0
+  Empty-set ^ Set2 expected  = { }
+  Empty-set ^ Set2 performed = { }
+
+Intersection of two sets, (Set1 and Set2) at phase 0
+  Set1 ^ Set2 expected  = { 23 43 65 }
+  Set1 ^ Set2 performed = { 23 43 65 }
+
+Deleting current sets at phase 0
+deleteSet performed okay
+
+Perform addElement at phase 1
+  addElement (Set 1) expected  : 128 256 328 415 512
+  addElement (Set 1) performed : 128 256 328 415 512
+
+Perform deleteElement at phase 1
+  deleting an element '512' : 128 256 328 415 512
+  deleting an element '328' : 128 256 328 415
+  deleting an element '128' : 128 256 415
+  deleting an element '415' : 256 415
+  deleting an element '256' : 256
+  deleteElement performed okay.
+
+Perform addElement again at phase 1
+  addElement expected  : 128 256 328 415 512
+  addElement performed : 128 256 328 415 512
+
+Perform deleteElement at phase 1
+  deleting a smallest element : 128 256 328 415 512
+  deleting a smallest element : 256 328 415 512
+  deleting a smallest element : 328 415 512
+  deleting a smallest element : 415 512
+  deleting a smallest element : 512
+  deleteElement performed okay.
+
+Creating Set 1 for set union/intersection
+  Set 1 expected  = { 128 256 328 415 512 }
+  Set 1 performed = { 128 256 328 415 512 }
+
+Creating Set 2 for set union/intersection
+  Set 2 expected  = { 202 303 404 }
+  Set 2 performed = { 202 303 404 }
+
+Union of Set1 and an Empty set at phase 1
+  Set1 U Empty-set expected  = { 128 256 328 415 512 }
+  Set1 U Empty-set performed = { 128 256 328 415 512 }
+
+Union of an Empty set and Set2 at phase 1
+  Empty-set U Set2 expected  = { 202 303 404 }
+  Empty-set U Set2 performed = { 202 303 404 }
+
+Union of two sets, (Set1 and Set2) at phase 1
+  Set1 U Set2 expected  = { 128 202 256 303 328 404 415 512 }
+  Set1 U Set2 performed = { 128 202 256 303 328 404 415 512 }
+
+Intersection of Set1 and an Empty set at phase 1
+  Set1 ^ Empty-set expected  = { }
+  Set1 ^ Empty-set performed = { }
+
+Intersection of an Empty set and Set2 at phase 1
+  Empty-set ^ Set2 expected  = { }
+  Empty-set ^ Set2 performed = { }
+
+Intersection of two sets, (Set1 and Set2) at phase 1
+  Set1 ^ Set2 expected  = { }
+  Set1 ^ Set2 performed = { }
+
+Deleting current sets at phase 1
+deleteSet performed okay
+
+Large set intersection and union
+  Building Set1 and Set2 with random numbers.
+  It may take long time, please be patient ...
+    CPU time: Build sets = 8.09 seconds
+  Intersecting the above sets ...
+    CPU time: Set intersection = 0.01 seconds
+    Set1 ^ Set2 performed = { 50000 100000 150000 }
+  Union of the above sets ...
+    CPU time: Set Union = 0.02 seconds
+    Size of Set1 U Set2 = 36292 : this number may vary depending on compilers
+  Dispose memories ...
++++++ Checking memory... +++++
++++++ Memory is okay. +++++
+Program terminated okay (63).

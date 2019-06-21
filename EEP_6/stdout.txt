@@ -1,0 +1,22 @@
+- Reading binary data file, "in.bin"
+- Writing text data file, "out.txt"
+- Searching "Andy"
+Andy 23 5.55 M Abby 67795245
+- Searching "Laura"
+Laura 43 5.29 F Dallas
+- Searching "Joshua"
+Joshua 25 6.12 M Madison 29578238
+- Computing average and std. deviation of ages, and heights
+average of age = 31.97
+std_dev of age = 7.21
+average height of males = 5.86
+average height of females = 5.47
+- How many ladies live in "NewYork" ?
+51 ladies live in NewYork.
+- How many men have a phone that begins with 777 ?
+4 men have a phone that begins with 777.
+- How many ladies have her name that begin with 'E'? And, phone prefix?
+46 ladies have her names that begin with 'E'.
+167, 462 are the most frequent phone prefix hold by their husbands.
++++++ Checking memory... +++++
++++++ Memory is okay. +++++
