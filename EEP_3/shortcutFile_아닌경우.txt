@@ -1,0 +1,8 @@
+Enter name of Short-Cut file (.lnk) :
+     entered name of Short-cut file as 'shortcut.c'.
+Enter size of path name buffer (min = 1, max = 1024) :
+     entered path name buffer size as '100'.
+[WARNING] 'shortcut.c' may not be a short-cut file. Header size is '0xa0d2a2f' (expected 0x4c).
+[WARNING] Output may be wrong since we do not support this file.
+[ERROR] Invalid LInkCLSID of File 'shortcut.c'.
+[ERROR] This is is not a Windows shortcut file.

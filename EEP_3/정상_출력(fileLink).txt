@@ -1,0 +1,5 @@
+Enter name of Short-Cut file (.lnk) :
+     entered name of Short-cut file as 'aa.lnk'.
+Enter size of path name buffer (min = 1, max = 1024) :
+     entered path name buffer size as '1024'.
+The file 'aa.lnk' is a short-cut to a FILE 'C:\Users\hbmin\Documents\Class\Programming Practice\MORE\shortcut\fileFormatLink.txt'
